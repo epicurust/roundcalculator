@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+     <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="utf-8">
+    <title>Cuppatime! But who is making?</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <script src="add-content.js"></script>
+<br>
+<!--
+<button onclick="whoIsMakingTea()" class="buttonRed" type="button" name="button">GO</button> -->
+<br>
+<br>
+    <iframe src="https://giphy.com/embed/6T98OSEab3Y12OZ3GD" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/theoffice-the-office-tv-lover-6T98OSEab3Y12OZ3GD"></a></p>
+<script type="text/javascript">
+  function whoIsMakingTea(names) {
+
+    var names = ["Michael", "Robyn", "James"];
+    var numberOfPeople = names.length;
+    var randomPersonPosition = Math.floor(Math.random() * numberOfPeople);
+    var randomPerson = names[randomPersonPosition];
+
+    return randomPerson + " is going to get the chips!";
+      output = whoIsMakingTea();
+
+    }
+    output = whoIsMakingTea();
+    alert(output);
+
+</script>
+<!-- Footer -->
+
+<footer class="white-section" id="footer">
+
+  <div class="container-fluid">
+
+
+    <i class="social-icon fab fa-facebook-f"></i>
+    <i class="social-icon fab fa-twitter"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <a class="social-icon fas fa-envelope" href="epicurust@gmail.com"></a>
+
+  </div>
+
+  <p>© Copyright 2021 Michael Bell</p>
+
+</footer>
+  </body>
+</html>
