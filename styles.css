@@ -6,7 +6,7 @@ font-size: 45px;
 text-align: center;
 font-family: 'Montserrat', sans-serif;
 font-weight: bold;
-padding: 40px;
+padding: 30px;
 margin: 20px;
 
 }
@@ -15,4 +15,9 @@ button {
   text-align: center;
   padding: 20px;
   margin: 20px;
+}
+
+.footerfoot {
+  font-size: 15px;
+  color: gray;
 }
